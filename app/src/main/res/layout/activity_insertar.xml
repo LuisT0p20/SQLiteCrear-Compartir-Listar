@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Insertar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Registrar sistema"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtISid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:inputType="textPersonName"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/edtISnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:inputType="textPersonName"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/edtISprop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:inputType="textPersonName"
+        android:hint="Propietario" />
+
+    <EditText
+        android:id="@+id/edtISprecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:inputType="numberDecimal"
+        android:hint="Precio" />
+
+    <Spinner
+        android:id="@+id/cmbLenguaje"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:id="@+id/btnISregistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="registrar sistema" />
+</LinearLayout>
